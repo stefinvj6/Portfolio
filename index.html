@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <section class="menu">
+        <a class="menu-item active" id="about"> <i class="fas fa-user"></i> About</a>
+        <a class="menu-item" id="skills"> <i class="fas fa-feather-alt"></i> Skills</a>
+        <a class="menu-item" id="resume"> <i class="fas fa-list-alt"></i> Resume</a>    
+        <a class="menu-item" id="works"> <i class="fas fa-tasks"></i> Works</a>
+    </section>
+
+    <section class="profile">
+        <div class="img-container"></div>
+        <div class="profile-body">
+            <p class="name">STEFIN VJ</p>
+            <p class="role">FULL STACK Developer</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/stefin-vj-04a75a245"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/stefinvj6"><i class="fab fa-github"></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+            </div>
+            <div class="location">
+                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                <p class="role">Kochi/Kerala</p>
+            </div>
+        </div>
+        <div class="actions">
+            <button class="menu-item-button" id="contact" >Contact me</button>
+        </div>
+    </section>
+
+    <section class="main">
+
+        <section class="asset split about" id="about-section">
+            <p class="title section-item"><span>About</span> me</p>
+            <div class="asset-body">
+                <div class="section-item">
+                    <p>As a self-taught and passionate MERN Stack
+                       Developer. I have developed expertise in
+                       building responsive and scalable web 
+                       applications using Mongo DB,Express.js,
+                       React.js,Node.js. I have a strong 
+                       understanding of database design and management.
+                       I am excited to bring my passion for coding and
+                        dedication to excellence to a new role as a
+                         MERN Stack Developer.
+                        .</p>
+                </div>
+                <div class="section-item">
+                    <img class="laptop" src="./images/laptop.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="asset split" id="skills-section">
+            <p class="title section-item"><span>S</span>kills</p>
+            <div class="asset-body">
+                <div class="section-item">
+                    <p class="title"><i class="fas fa-code"></i>CODING</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>HTML5</li>
+                        <li><i class="fas fa-check"></i>CSS</li>
+                        <li><i class="fas fa-check"></i>Javascript</li>
+                        <li><i class="fas fa-check"></i>React Js</li>
+                        <li><i class="fas fa-check"></i>MongoDB</li>
+                        <li><i class="fas fa-check"></i>Node.js</li>
+                        <li><i class="fas fa-check"></i>Express.js</li>
+                        <li><i class="fas fa-check"></i>JQuery</li>
+                        <li><i class="fas fa-check"></i>Bootstarp</li>
+                    </ul>
+                </div>
+                <div class="section-item">
+                    <p class="title"><i class="fas fa-tools"></i>TOOLS</p>
+                    <ul>
+                        <li class="ide"><i class="fas fa-check"></i>VS Code</li>
+                        <li class="ide"><i class="fas fa-check"></i>Visual Studio</li>
+                        <li class="ide"><i class="fas fa-check"></i>Git</li>
+                        <li class="ide"><i class="fas fa-check"></i>Github</li>
+                        <li class="ide"><i class="fas fa-check"></i>Gitlab</li>
+                        <li class="ide"><i class="fas fa-check"></i>Netlify</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="asset split" id="resume-section">
+            <p class="title section-item"><span>R</span>esume</p>
+            <div class="asset-body">
+
+                <div class="section-item">
+                    <p class="title">EXPERIENCE</p>
+                    <div class="section-sub-item">
+                        <p class="time current">08/2022 - 03/2023</p>
+                        <p class="item-name">MERN Stack Developer Intern</p>
+                        <p class="additional-info">Soften Technologies.</p>
+                        <p class="description">I have completed an Internship at Soften technologies.,
+                            Kadavanthra, Kochi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-item">
+                    <p class="title">EDUCATION</p>
+                    <div class="section-sub-item">
+                        <p class="time">2019 - 2022</p>
+                        <p class="item-name">BCA</p>
+                        <p class="additional-info">NCAS THALOOR</p>
+                        <p class="description">I have completed an Bachelor of Computer Application in Nilgiri College of Arts and Science Thaloor under Bharathiyar University.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="asset" id="works-section">
+            <p class="title section-item"><span>Recent</span> Projects</p>
+            <div class="asset-body grid">
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="./images/netflix.jpg" alt="project image">
+                        <a href="https://netflix-clone333.netlify.app" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Netflix-Clone</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="./images/e-commerse.jpg" alt="project image">
+                        <a href="https://github.com/stefinvj6/E-Commerse-backend" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">E-Commerse Website</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src='./images/olx.jpg' alt="project image">
+                        <a href="https://github.com/stefinvj6/E-Commerse-backend" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">OLX Website</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="./images/job.jpg" alt="project image">
+                        <a href="https://jobportal33.netlify.app" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Job Portal</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="./images/imagegallery.jpg" alt="project image">
+                        <a href="https://imagegalleryapp66.netlify.app" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Image Gallery App</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="./images/TODO.jpg" alt="project image">
+                        <a href="https://to-do-app33.netlify.app" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">TODO App</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="asset split" id="contact-section">
+            <p class="title section-item"><span>C</span>ontact Me</p>
+            <div class="asset-body">
+                <div class="section-item">
+                    <p class="title">CONTACT</p>
+                    <div class="section-sub-item">
+                            <div class="contact__information">
+                                <i class="uil uil-phone contact__icon"></i>
+                                <div>
+                                    <h3 class="contact__title">Call Me</h3>
+                                    <span class="contact__subtitle">9360292804</span>
+                                </div>
+                            </div>
+                            
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">stefinvj6@gmail.com</span>
+                            </div>
+                        </div>
+        
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Kochi,Kerala</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="section-item">
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+    
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+    
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+    
+                        <div class="send-message">
+                            <a href="#" class="button--flex">
+                                Send Message
+                            </a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script>
+        var aboutSection = document.getElementById("about-section");
+        var skillsSection = document.getElementById("skills-section");
+        var resumeSection = document.getElementById("resume-section");
+        var worksSection = document.getElementById("works-section");
+        var contactSection = document.getElementById("contact-section")
+        const menuButton = document.querySelector(".menu-item-button");
+
+        const menuLinks = document.querySelectorAll('.menu .menu-item');
+        menuLinks.forEach(el => {
+            el.addEventListener('click', function () {
+
+                let sectionToGo = aboutSection;
+
+                switch (this.id) {
+                    case 'skills':
+                        sectionToGo = skillsSection;
+                        break;
+                    case 'resume':
+                        sectionToGo = resumeSection;
+                        break;
+                    case 'works':
+                        sectionToGo = worksSection;
+                        break;
+                    case 'contact':
+                        sectionToGo = worksSection;
+                        break;
+                }
+                // Scroll smoothly to section
+                sectionToGo.scrollIntoView({behavior: 'smooth'});
+            })
+        })
+        
+menuButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+});
+    </script>
+</body>
+
+</html>
